@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- fontasome -->
+    <script src="https://kit.fontawesome.com/f9823dbbfc.js" crossorigin="anonymous"></script>
+    <!-- daisyui cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwindcss cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar bg-base-100 bg-red-500">
+
+                <div class="flex-1">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                  </ul>
+                </div>
+                <div class="flex-1 p-1">
+                    <img src="images/logo.png" alt="">
+                    <a class="text-xl p-1">Fruit Burst</a>
+                </div>
+                <div class="form-control flex-row input input-bordered w-24 md:w-auto rounded-full">
+                    <input type="text" placeholder="Search" class=""/>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
